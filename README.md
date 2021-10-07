@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>who am i</title>
-    <meta name="author" content="sajed hsini">
+    <meta name="author" content="Jadjuud">
     <meta name="description" content="who am i "> <!--Webpage Description -->
     <meta name="keywords" content="who am i  HTML, Layout">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
