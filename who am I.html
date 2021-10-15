@@ -26,7 +26,7 @@ header {
 nav {
   float: left;
   width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  /*height: 300px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
 }
@@ -42,7 +42,7 @@ article {
   padding: 20px;
   width: 70%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  /*height: 300px; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
@@ -82,21 +82,31 @@ footer {
   <nav>
     <ul>
       <li><a href="https://www.cnn.com/2013/09/03/world/meast/lebanon-fast-facts/index.html" target="_blank" style="font-size: 30px; text-decoration:underline">Facts about Lebanon</a></li>
-      <img src="https://cdn.countryflags.com/thumbs/lebanon/flag-400.png" alt="" title="Lebanon Flag style="max-width:85%;height:auto;">
+      <img src="https://cdn.countryflags.com/thumbs/lebanon/flag-400.png" alt="" title="Lebanon Flag" style="max-width:85%;height:auto;">
     </ul>
-  </nav>
 
-  <nav>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=nK50mAR8KDA" target="_blank" style="font-size: 30px; text-decoration:underline">The Culture of Lebanon YouTube Link</a></li>
     </ul>
+
+  <!--  <ul>
+      <li> Lebanese Food (Click on Image to see video) </li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=wSwpV85OXNs" target="_blank" style="font-size: 30px; text-decoration:underline">
+        <img alt="Lebanese Food" src=LebaneseFood.png" style="max-width:30%;height:auto;>
+        </a>
+      </li>
+    </ul> -->
+
+    Click on the image to see a video of Lebanese Street Food:<br>
+          <a href="https://youtu.be/lgPf7RTY-yg" target="_blank">
+             <img alt="Lebanese Food" src="LebaneseFood.png"
+             style="max-width:60%;height:auto;"">
+          </a>
+
   </nav>
 
-  <nav>
-    <ul>
-      <img src="/images/cousins.png" alt="" title="Title 1" style="max-width:85%;height:auto;">
-    </ul>
-  </nav>
+
 
   <article>
     <h1>About Jad</h1>
@@ -111,17 +121,21 @@ footer {
       <li>Soccer</li>
     </ol>
 
-
-
+    <h1> These are some of my cousins as I have 7 uncles and 5 aunts that are living in Lebanon, Canada, United States, and Venezuela </h1>
+    <img src="cousins.png" alt="Cousins" title="Cousins" style="max-width:30%;height:auto;">
 
   </article>
+
 </section>
 
 
 
-<footer >
+
+<footer style="="position:relative"">
   <p>Footer</p>
 </footer>
+
+
 
 </body>
 </html>
